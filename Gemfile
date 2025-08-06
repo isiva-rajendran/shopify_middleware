@@ -20,6 +20,12 @@ gem "solid_cache"
 gem "solid_queue"
 gem "solid_cable"
 
+gem 'graphql'
+gem 'graphiql-rails' # Optional (for testing queries)
+gem 'shopify_api'    # Official Shopify gem
+gem 'jwt'            # For token-based auth
+gem 'rack-cors'      # Allow Next.js to call Rails
+
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
